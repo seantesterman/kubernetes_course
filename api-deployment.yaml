@@ -32,3 +32,5 @@ spec:
             key: API_PORT
         - name: API_DB_FILEPATH
           value: /persist/db.json
+        - name: CRAWLER_BASE_URL
+          value: http://crawler-service.crawler.svc.cluster.local
